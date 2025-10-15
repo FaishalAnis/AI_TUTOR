@@ -156,8 +156,10 @@ Applies AI to education technology (AI in EdTech)
 Artificial Intelligence, Machine Learning, NLP, TF–IDF, Cosine Similarity, Intelligent Tutoring System, MERN Stack, Personalized Learning, Adaptive Education
 
 👨‍💻 Contributors
-Name	Role
-Md Faishal Anis	Project Developer, Researcher
+Team Leader
+Md Faishal Anis
+Team members
+Harshita Dujari, Puja Mishra, Arijit Mallick, Kunal Singh
 
 🪪 License
 This project is open-source under the MIT License.
@@ -188,5 +190,10 @@ Copy code
 - You can add screenshots later under a section like:  
   ```markdown
   ## 🖼️ Screenshots  
-  ![Login Page](screenshots/login.png)  
-  ![Dashboard](screenshots/register.png)
+## 🖼️ Screenshots  
+
+### 🔹 Login Page  
+![Login Page](./screenshots/login.png)
+
+### 🔹 Dashboard  
+![Dashboard](./screenshots/dashboard.png)
