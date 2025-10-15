@@ -1,0 +1,108 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(40, 20, 60, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 40px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-container h1 {
+  font-size: 28px;
+  color: #b3a6ff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.dashboard-search-form input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.dashboard-search-form input::placeholder {
+  color: #d6d6d6;
+}
+
+.dashboard-search-form button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #7f5af0, #00bfff);
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.dashboard-search-form button:hover {
+  background: linear-gradient(135deg, #9f74ff, #33ccff);
+}
+
+.dashboard-results {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.dashboard-result-card {
+  background: rgba(60, 30, 80, 0.6);
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.dashboard-result-card:hover {
+  transform: translateY(-3px);
+}
+
+.dashboard-result-card h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #b3a6ff;
+}
+
+.dashboard-result-card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #d6d6d6;
+}
+
+.dashboard-result-card a {
+  font-size: 14px;
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.dashboard-result-card a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-container.no-results {
+  justify-content: center;
+}
